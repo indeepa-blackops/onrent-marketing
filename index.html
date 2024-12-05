@@ -1,0 +1,875 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>OnRent</title>
+  <meta name="description" content="The best place to rent things online.">
+  <meta name="keywords" content="Rent, Housing and Furniture, Electronics, Camping Gear, Musical Instruments">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon-96x96.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Bocor
+  * Template URL: https://bootstrapmade.com/bocor-bootstrap-template-nice-animation/
+  * Updated: Aug 07 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <img src="assets/img/logo-round-corners-2.png" alt="logo">
+        <!-- <h1 class="sitename">OnRent</h1>
+        <span>.</span> -->
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="#hero" class="active">Home</a></li>
+          <li><a href="#about">About</a></li>
+<!--          <li><a href="#whyus">Why Us?</a></li>-->
+          <li><a href="#services">Services</a></li>
+          <li><a href="#team">Team</a></li>
+          <!-- <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a> -->
+            <!-- <ul>
+              <li><a href="#">Dropdown 1</a></li>
+              <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                <ul>
+                  <li><a href="#">Deep Dropdown 1</a></li>
+                  <li><a href="#">Deep Dropdown 2</a></li>
+                  <li><a href="#">Deep Dropdown 3</a></li>
+                  <li><a href="#">Deep Dropdown 4</a></li>
+                  <li><a href="#">Deep Dropdown 5</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Dropdown 2</a></li>
+              <li><a href="#">Dropdown 3</a></li>
+              <li><a href="#">Dropdown 4</a></li>
+            </ul>
+          </li> -->
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+      <a class="btn-getstarted" href="index.html#about">Get Started</a>
+
+    </div>
+  </header>
+
+  <main class="main"> <!-- Helps identify this area so we can style it using CSS -->
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section dark-background"> <!--The main onrent purple background -->
+
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center" data-aos="fade-in"> <!--tells to fade smoothly when you scroll -->
+            <h1>Rent Smarter, Live Better</h1>
+            <h3>Your Gateway to Responsible Rental Solutions</h3>
+            <p>From Tools to Tech, Rent Anything with Trust</p>
+            <div class="d-flex">
+              <a href="#about" class="btn-get-started">Get Started</a> <!-- If you click it will take you to the account section -->
+            </div>
+          </div>
+          <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-out" data-aos-delay="100">
+            <img src="assets/img/hero.jpg" class="img-fluid animated" alt="" style="border-radius: 15px"> <!-- The main image -->
+          </div>
+        </div>
+      </div> <!--stopped -->
+
+    </section><!-- /Hero Section -->
+
+    <!-- Clients Section -->
+    <!-- <section id="clients" class="clients section light-background">
+
+      <div class="container">
+
+        <div class="swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 600,
+              "autoplay": {
+                "delay": 5000
+              },
+              "slidesPerView": "auto",
+              "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+              },
+              "breakpoints": {
+                "320": {
+                  "slidesPerView": 2,
+                  "spaceBetween": 40
+                },
+                "480": {
+                  "slidesPerView": 3,
+                  "spaceBetween": 60
+                },
+                "640": {
+                  "slidesPerView": 4,
+                  "spaceBetween": 80
+                },
+                "992": {
+                  "slidesPerView": 6,
+                  "spaceBetween": 120
+                }
+              }
+            }
+          </script>
+          <div class="swiper-wrapper align-items-center">
+            <div class="swiper-slide"><img src="assets/img/clients/client-1.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-2.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-3.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-4.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-5.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-6.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-7.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-8.png" class="img-fluid" alt=""></div>
+          </div>
+        </div>
+
+      </div>
+
+    </section>/Clients Section -->
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+        <div class="col-lg-6 position-relative order-lg-last" data-aos="fade-up" data-aos-delay="200">
+    <img src="assets/img/vision.jpg" alt="Vision Image" class="rounded-right-img">
+
+    <a href="https://youtu.be/gW9qexSr-js">
+        <div class=" pulsating-play-btn"></div>
+    </a>
+</div>
+
+
+          <div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="100">
+            <h3>About Us</h3>
+            <p style="text-align: justify;">
+            At OnRent, we provide hassle-free rentals for premium gadgets like drones, cameras, and VR headsets, delivering the latest tech affordably to your doorstep, empowering creativity and innovation.</p>
+            <ul>
+              <li>
+                <i class="bi bi-diagram-3"></i> <!--This is a small icon -->
+                <div>
+                  <h5>Who We Are</h5>
+                  <p style="text-align: justify;">
+                    OnRent is a modern platform designed for tech enthusiasts and innovators. We believe in making high-end technology accessible and affordable to everyone.
+</p>
+                </div>
+              </li>
+              <li>
+                <i class="bi bi-fullscreen-exit"></i>
+                <div>
+                  <h5>What We Do</h5>
+                  <p style="text-align: justify;">
+                    We provide hassle-free rentals for premium gadgets like drones, cameras, laptops, gaming accessories, VR headsets, and more. Our service delivers cutting-edge tech to your doorstep.</p>
+                </div>
+              </li>
+              <li>
+                <i class="bi bi-broadcast"></i>
+                <div>
+                  <h5>Our Mission</h5>
+                  <p style="text-align: justify;">
+                      Our mission is to empower individuals by offering easy access to the latest technology, enabling them to explore, create, and enjoy without the burden of ownership.
+</p>                </div>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /About Section -->
+
+    <!-- Featured Services Section -->
+    <section id="featured-services" class="featured-services section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Featured Services</h2>
+        <p>Key Features of Our Rental Platform: Ensuring Convenience, Quality, and Seamless Experience for All Our Users.</p>
+        </p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-5">
+
+          <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="200">
+            <div class="service-item">
+              <div class="img">
+                <img src="assets/img/building3.jpeg" class="img-fluid" alt="">
+              </div>
+              <div class="details position-relative">
+                <div class="icon">
+                  <i class="bi bi-activity"></i> <!--Shows a specific bootstrap icon -->
+                </div>
+                <a href="service-details.html" class="stretched-link"> <!-- This makes the title a clickable link -->
+                  <h3>Providing Services on Rent for Short Term Use</h3>
+                </a>
+                <p style="text-align:center;">Our platform provides a variety of short-term rental services, allowing you to easily access high-quality items without long-term commitments.</p>
+              </div>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="300">
+            <div class="service-item">
+              <div class="img">
+                <img src="assets/img/building3.jpeg" class="img-fluid" alt="">
+              </div>
+              <div class="details position-relative">
+                <div class="icon">
+                  <i class="bi bi-broadcast"></i>
+                </div>
+                <a href="service-details.html" class="stretched-link">
+                  <h3>Connecting the Renter and the Rentee Easily</h3>
+                </a>
+                <p style="text-align:center;">We streamline the rental process by connecting renters and rentees with intuitive search tools and secure communication for a hassle-free experience.</p>
+              </div>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="400">
+            <div class="service-item">
+              <div class="img">
+                <img src="assets/img/building3.jpeg" class="img-fluid" alt="">
+              </div>
+              <div class="details position-relative">
+                <div class="icon">
+                  <i class="bi bi-easel"></i>
+                </div>
+                <a href="service-details.html" class="stretched-link">
+                  <h3>Renting items <br> across different categories</h3>
+                </a>
+                <p style="text-align:center;">Explore a wide range of rental options across categories like electronics, housing and furniture, outdoor gear and many more all in one place for your diverse needs.</p>
+              </div>
+            </div>
+          </div><!-- End Service Item -->
+
+<!--          <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="500">-->
+<!--            <div class="service-item">-->
+<!--              <div class="img">-->
+<!--                <img src="assets/img/services-4.jpg" class="img-fluid" alt="">-->
+<!--              </div>-->
+<!--              <div class="details position-relative">-->
+<!--                <div class="icon">-->
+<!--                  <i class="bi bi-bounding-box-circles"></i>-->
+<!--                </div>-->
+<!--                <a href="service-details.html" class="stretched-link">-->
+<!--                  <h3>Asperiores Commodit</h3>-->
+<!--                </a>-->
+<!--                <p>Non et temporibus minus omnis sed dolor esse consequatur. Cupiditate sed error ea fuga sit provident adipisci neque.</p>-->
+<!--                <a href="service-details.html" class="stretched-link"></a>-->
+<!--              </div>-->
+<!--            </div>-->
+<!--          </div>&lt;!&ndash; End Service Item &ndash;&gt;-->
+
+<!--          <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="600">-->
+<!--            <div class="service-item">-->
+<!--              <div class="img">-->
+<!--                <img src="assets/img/services-5.jpg" class="img-fluid" alt="">-->
+<!--              </div>-->
+<!--              <div class="details position-relative">-->
+<!--                <div class="icon">-->
+<!--                  <i class="bi bi-calendar4-week"></i>-->
+<!--                </div>-->
+<!--                <a href="service-details.html" class="stretched-link">-->
+<!--                  <h3>Velit Doloremque</h3>-->
+<!--                </a>-->
+<!--                <p>Cumque et suscipit saepe. Est maiores autem enim facilis ut aut ipsam corporis aut. Sed animi at autem alias eius labore.</p>-->
+<!--                <a href="service-details.html" class="stretched-link"></a>-->
+<!--              </div>-->
+<!--            </div>-->
+<!--          </div>&lt;!&ndash; End Service Item &ndash;&gt;-->
+
+<!--          <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="700">-->
+<!--            <div class="service-item">-->
+<!--              <div class="img">-->
+<!--                <img src="assets/img/services-6.jpg" class="img-fluid" alt="">-->
+<!--              </div>-->
+<!--              <div class="details position-relative">-->
+<!--                <div class="icon">-->
+<!--                  <i class="bi bi-chat-square-text"></i>-->
+<!--                </div>-->
+<!--                <a href="service-details.html" class="stretched-link">-->
+<!--                  <h3>Dolori Architecto</h3>-->
+<!--                </a>-->
+<!--                <p>Hic molestias ea quibusdam eos. Fugiat enim doloremque aut neque non et debitis iure. Corrupti recusandae ducimus enim.</p>-->
+<!--                <a href="service-details.html" class="stretched-link"></a>-->
+<!--              </div>-->
+<!--            </div>-->
+<!--          </div>&lt;!&ndash; End Service Item &ndash;&gt;-->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Featured Services Section -->
+
+    <!-- Features Section -->
+    <section id="features" class="features section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Features</h2>
+        <p>Discover the Comprehensive Features and Benefits of Our Website for a Seamless User Experience</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4 align-items-center features-item">
+          <div class="col-md-5 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="100">
+            <img src="assets/img/building5.jpeg" class="img-fluid rounded-img" alt="" style="height: 700px width: 600px; object-fit: cover;">
+          </div>
+          <div class="col-md-7" data-aos="fade-up" data-aos-delay="100">
+            <h3>Explore our platform's innovative features designed to enhance your renting journey.</h3>
+            <p class="fst-italic">
+              Our promise is to provide you with a hassle-free and reliable renting experience, ensuring that every item you rent is of the highest quality and delivered with complete satisfaction.</p>
+            <ul>
+              <li><i class="bi bi-check"></i> <span> Search and filter Option</span></li>
+              <li><i class="bi bi-check"></i><span> Top-Up Rating system</span></li>
+              <li><i class="bi bi-check"></i> <span> History and Reviews</span></li>
+              <li><i class="bi bi-check"></i> <span> In-App Chat</span></li>
+            </ul>
+          </div>
+        </div><!-- Features Item -->
+
+        <div class="row gy-4 align-items-center features-item">
+          <div class="col-md-5 order-1 order-md-2 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
+            <img src="assets/img/building4.jpeg" class="img-fluid rounded-img" alt="">
+          </div>
+          <div class="col-md-7 order-2 order-md-1" data-aos="fade-up" data-aos-delay="200">
+            <h3>"Your Seamless Renting Experience Starts Here"</h3>
+            <p class="fst-italic" style="text-align: justify;">
+              At OnRent, we strive to make every aspect of renting straightforward and convenient. Our advanced tools and customer-first approach ensure a seamless experience from start to finish.
+              Whether you're browsing for options or managing your rentals, our platform is designed to adapt to your needs, providing flexibility, transparency, and ease of use at every step.
+              With a user-focused interface and innovative features, we empower you to make informed decisions with confidence while enjoying a hassle-free journey.
+            </p>
+            </div>
+        </div><!-- Features Item -->
+
+<!--        <div class="row gy-4 align-items-center features-item">-->
+<!--          <div class="col-md-5 d-flex align-items-center" data-aos="zoom-out">-->
+<!--            <img src="assets/img/features-3.svg" class="img-fluid" alt="">-->
+<!--          </div>-->
+<!--          <div class="col-md-7" data-aos="fade-up">-->
+<!--            <h3>Sunt consequatur ad ut est nulla consectetur reiciendis animi voluptas</h3>-->
+<!--            <p>Cupiditate placeat cupiditate placeat est ipsam culpa. Delectus quia minima quod. Sunt saepe odit aut quia voluptatem hic voluptas dolor doloremque.</p>-->
+<!--            <ul>-->
+<!--              <li><i class="bi bi-check"></i> <span> Search and filter Option</span></li>-->
+<!--              <li><i class="bi bi-check"></i><span> Top-Up Rating system</span></li>-->
+<!--              <li><i class="bi bi-check"></i> <span> History and Reviews</span></li>-->
+<!--              <li><i class="bi bi-check"></i> <span> In-App Chat</span></li>-->
+
+<!--            </ul>-->
+<!--          </div>-->
+<!--        </div>&lt;!&ndash; Features Item &ndash;&gt;-->
+
+<!--        <div class="row gy-4 align-items-center features-item">-->
+<!--          <div class="col-md-5 order-1 order-md-2 d-flex align-items-center" data-aos="zoom-out">-->
+<!--            <img src="assets/img/features-4.svg" class="img-fluid" alt="">-->
+<!--          </div>-->
+<!--          <div class="col-md-7 order-2 order-md-1" data-aos="fade-up">-->
+<!--            <h3>Quas et necessitatibus eaque impedit ipsum animi consequatur incidunt in</h3>-->
+<!--            <p class="fst-italic">-->
+<!--              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore-->
+<!--              magna aliqua.-->
+<!--            </p>-->
+<!--            <p>-->
+<!--              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate-->
+<!--              velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in-->
+<!--              culpa qui officia deserunt mollit anim id est laborum-->
+<!--            </p>-->
+<!--          </div>-->
+        </div><!-- Features Item -->
+
+      </div>
+
+    </section><!-- /Features Section -->
+
+    <!-- Services Section -->
+    <section id="services" class="services section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Services</h2>
+        <p>Explore a range of services designed to make your renting experience smooth, efficient, and trustworthy. From secure transactions to excellent customer support, we've got you covered.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item  position-relative">
+              <div class="icon">
+                <i class="bi bi-activity"></i>
+              </div>
+              <a href="service-details.html" class="stretched-link">
+                <h3>Easy Item Listings</h3>
+              </a>
+              <p>Quickly and easily list your items for rent with clear descriptions and images, ensuring maximum visibility.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="bi bi-broadcast"></i>
+              </div>
+              <a href="service-details.html" class="stretched-link">
+                <h3>Verified Renters and Lenders</h3>
+              </a>
+              <p>All users are verified to provide a secure and trustworthy community.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="bi bi-easel"></i>
+              </div>
+              <a href="service-details.html" class="stretched-link">
+                <h3>Customizable Rental Periods</h3>
+              </a>
+              <p>Set flexible rental durations to suit your needs—whether it's for a day, week, or longer.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="bi bi-bounding-box-circles"></i>
+              </div>
+              <a href="service-details.html" class="stretched-link">
+                <h3>Secure Payments</h3>
+              </a>
+              <p>Enjoy peace of mind with our safe and reliable payment options.</p>
+              <a href="service-details.html" class="stretched-link"></a>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="bi bi-calendar4-week"></i>
+              </div>
+              <a href="service-details.html" class="stretched-link">
+                <h3>24/7 Support</h3>
+              </a>
+              <p>Our dedicated support team is always available to assist you with any queries or issues.</p>
+              <a href="service-details.html" class="stretched-link"></a>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="bi bi-chat-square-text"></i>
+              </div>
+              <a href="service-details.html" class="stretched-link">
+                <h3>Hassle-Free Returns</h3>
+              </a>
+              <p>Streamlined processes to make returning items as simple as renting them.</p>
+              <a href="service-details.html" class="stretched-link"></a>
+            </div>
+          </div><!-- End Service Item -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Services Section -->
+
+    <!-- Team Section -->
+    <section id="team" class="team section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Team</h2>
+        <p>Meet the passionate individuals who work tirelessly to bring you the best experience. From innovative thinkers to dedicated doers, our team is here to make it happen.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+            <div class="team-member">
+              <div class="member-img">
+                <img src="assets/img/methsilu.png" class="img-fluid" alt="">
+                <div class="social">
+                  <a href="methsilumc@gmail.com"><i class="fab fa-google"></i></a>
+                  <a href="https://www.instagram.com/_methsilu.t_/"><i class="bi bi-instagram"></i></a>
+                  <a href="https://www.linkedin.com/in/methsilu-thoradeniya-65b4132b5/"><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>Methsilu Thoradeniya</h4>
+                <span>Leader and Developer</span>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
+            <div class="team-member">
+              <div class="member-img">
+                <img src="assets/img/nat.png" class="img-fluid" alt="">
+                <div class="social">
+                  <a href="nathanealm@gmail.com"><i class="fab fa-google"></i></a>
+                  <a href="https://www.instagram.com/nathaneal0x31/"><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>Nathaneal Meththananda</h4>
+                <span>Lead Developer</span>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
+            <div class="team-member">
+              <div class="member-img">
+                <img src="assets/img/ihan.png" class="img-fluid" alt="">
+                <div class="social">
+                 <a href="ihanindeeparcg@gmail.com"><i class="fab fa-google"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href="https://www.linkedin.com/in/ihanindeepa/"><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>Ihan Indeepa</h4>
+                <span>UI/UX Designer/Developer</span>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
+            <div class="team-member">
+              <div class="member-img">
+                <img src="assets/img/senaya1.png" class="img-fluid" alt="">
+                <div class="social">
+                  <a href="senayafernando780@gmail.com"><i class="fab fa-google"></i></a>
+                  <a href="https://www.instagram.com/senayafernando_/"><i class="bi bi-instagram"></i></a>
+                  <a href="https://www.linkedin.com/in/senaya-fernando-37575a327/"><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>Senaya Fernando</h4>
+                <span>Marketer/ Developer</span>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+      </div>
+<!--copy paste it here -->
+      </div>
+
+    </section><!-- /Team Section -->
+
+<!--    &lt;!&ndash; Pricing Section &ndash;&gt;-->
+<!--    <section id="pricing" class="pricing section light-background">-->
+
+<!--      &lt;!&ndash; Section Title &ndash;&gt;-->
+<!--      <div class="container section-title" data-aos="fade-up">-->
+<!--        <h2>Pricing</h2>-->
+<!--        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>-->
+<!--      </div>&lt;!&ndash; End Section Title &ndash;&gt;-->
+
+<!--      <div class="container">-->
+
+<!--        <div class="row gy-4">-->
+
+<!--          <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="100">-->
+<!--            <div class="pricing-item">-->
+<!--              <h3>Free Plan</h3>-->
+<!--              <h4><sup>$</sup>0<span> / month</span></h4>-->
+<!--              <ul>-->
+<!--                <li><i class="bi bi-check"></i> <span>Quam adipiscing vitae proin</span></li>-->
+<!--                <li><i class="bi bi-check"></i> <span>Nec feugiat nisl pretium</span></li>-->
+<!--                <li><i class="bi bi-check"></i> <span>Nulla at volutpat diam uteera</span></li>-->
+<!--                <li class="na"><i class="bi bi-x"></i> <span>Pharetra massa massa ultricies</span></li>-->
+<!--                <li class="na"><i class="bi bi-x"></i> <span>Massa ultricies mi quis hendrerit</span></li>-->
+<!--              </ul>-->
+<!--              <a href="#" class="buy-btn">Buy Now</a>-->
+<!--            </div>-->
+<!--          </div>&lt;!&ndash; End Pricing Item &ndash;&gt;-->
+
+<!--          <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="200">-->
+<!--            <div class="pricing-item featured">-->
+<!--              <h3>Business Plan</h3>-->
+<!--              <h4><sup>$</sup>29<span> / month</span></h4>-->
+<!--              <ul>-->
+<!--                <li><i class="bi bi-check"></i> <span>Quam adipiscing vitae proin</span></li>-->
+<!--                <li><i class="bi bi-check"></i> <span>Nec feugiat nisl pretium</span></li>-->
+<!--                <li><i class="bi bi-check"></i> <span>Nulla at volutpat diam uteera</span></li>-->
+<!--                <li><i class="bi bi-check"></i> <span>Pharetra massa massa ultricies</span></li>-->
+<!--                <li><i class="bi bi-check"></i> <span>Massa ultricies mi quis hendrerit</span></li>-->
+<!--              </ul>-->
+<!--              <a href="#" class="buy-btn">Buy Now</a>-->
+<!--            </div>-->
+<!--          </div>&lt;!&ndash; End Pricing Item &ndash;&gt;-->
+
+<!--          <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="300">-->
+<!--            <div class="pricing-item">-->
+<!--              <h3>Developer Plan</h3>-->
+<!--              <h4><sup>$</sup>49<span> / month</span></h4>-->
+<!--              <ul>-->
+<!--                <li><i class="bi bi-check"></i> <span>Quam adipiscing vitae proin</span></li>-->
+<!--                <li><i class="bi bi-check"></i> <span>Nec feugiat nisl pretium</span></li>-->
+<!--                <li><i class="bi bi-check"></i> <span>Nulla at volutpat diam uteera</span></li>-->
+<!--                <li><i class="bi bi-check"></i> <span>Pharetra massa massa ultricies</span></li>-->
+<!--                <li><i class="bi bi-check"></i> <span>Massa ultricies mi quis hendrerit</span></li>-->
+<!--              </ul>-->
+<!--              <a href="#" class="buy-btn">Buy Now</a>-->
+<!--            </div>-->
+<!--          </div>&lt;!&ndash; End Pricing Item &ndash;&gt;-->
+
+<!--        </div>-->
+
+<!--      </div>-->
+
+<!--    </section>&lt;!&ndash; /Pricing Section &ndash;&gt;-->
+
+    <!-- Faq Section -->
+    <section id="faq" class="faq section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Frequently Asked Questions</h2>
+        <p>Find answers to common questions about using our platform, from costs and reliability to how you can contribute and reach our support team. We’re here to help make your experience smooth and hassle-free.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row faq-item" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg-5 d-flex">
+            <i class="bi bi-question-circle"></i>
+            <h4>Is there a cost to use your platform?</h4>
+          </div>
+          <div class="col-lg-7">
+            <p>
+              No, signing up and accessing our basic features is free. However, some premium content, courses, or products may have associated costs, which are clearly mentioned.
+            </p>
+          </div>
+        </div><!-- End F.A.Q Item-->
+
+        <div class="row faq-item" data-aos="fade-up" data-aos-delay="200">
+          <div class="col-lg-5 d-flex">
+            <i class="bi bi-question-circle"></i>
+            <h4>Are the products and services on your platform reliable?</h4>
+          </div>
+          <div class="col-lg-7">
+            <p>
+              We carefully vet all the products and services listed on our platform to ensure they meet high-quality standards. Customer reviews and expert insights are also provided to help you make informed decisions.
+            </p>
+          </div>
+        </div><!-- End F.A.Q Item-->
+
+        <div class="row faq-item" data-aos="fade-up" data-aos-delay="300">
+          <div class="col-lg-5 d-flex">
+            <i class="bi bi-question-circle"></i>
+            <h4>How can I contact customer support?</h4>
+          </div>
+          <div class="col-lg-7">
+            <p>
+              You can reach out to our customer support team via email at support onrent04@gmail.com or use the live chat feature available on our website during business hours.
+            </p>
+          </div>
+        </div><!-- End F.A.Q Item-->
+
+        <div class="row faq-item" data-aos="fade-up" data-aos-delay="400">
+          <div class="col-lg-5 d-flex">
+            <i class="bi bi-question-circle"></i>
+            <h4>Can I contribute to your website?</h4>
+          </div>
+          <div class="col-lg-7">
+            <p>
+              Absolutely! If you're a parenting expert or have valuable insights to share, contact us through our "Contribute" page, and we’ll guide you through the process.
+            </p>
+          </div>
+        </div><!-- End F.A.Q Item-->
+
+        <div class="row faq-item" data-aos="fade-up" data-aos-delay="500">
+          <div class="col-lg-5 d-flex">
+            <i class="bi bi-question-circle"></i>
+            <h4>How do I track my orders?</h4>
+          </div>
+          <div class="col-lg-7">
+            <p>
+              If you’ve purchased a product through our website, go to your account dashboard and click on "My Orders" to view your order status.
+            </p>
+          </div>
+        </div><!-- End F.A.Q Item-->
+
+      </div>
+
+    </section><!-- /Faq Section -->
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section light-background">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Contact</h2>
+        <p>If you have any questions or need assistance, feel free to reach out to us. We're here to help!</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+          <div class="col-lg-6 ">
+            <div class="row gy-4">
+
+<!--              <div class="col-lg-12">-->
+<!--                <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="200">-->
+<!--                  <i class="bi bi-geo-alt"></i>-->
+<!--                  <h3>Address</h3>-->
+<!--                  <p>A108 Adam Street, New York, NY 535022</p>-->
+<!--                </div>-->
+<!--              </div>&lt;!&ndash; End Info Item &ndash;&gt;-->
+
+              <div class="col-md-6">
+                <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="300">
+                  <i class="bi bi-telephone"></i>
+                  <h3>Call Us</h3>
+                  <p>+94 76 584 1704</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="col-md-6">
+                <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="400">
+                  <i class="bi bi-envelope"></i>
+                  <h3>Email Us</h3>
+                  <p>onrent2024@gmail.com</p>
+                </div>
+              </div><!-- End Info Item -->
+
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="500">
+              <div class="row gy-4">
+
+                <div class="col-md-6">
+                  <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
+                </div>
+
+                <div class="col-md-6 ">
+                  <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
+                </div>
+
+                <div class="col-md-12">
+                  <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
+                </div>
+
+                <div class="col-md-12">
+                  <textarea class="form-control" name="message" rows="4" placeholder="Message" required=""></textarea>
+                </div>
+
+                <div class="col-md-12 text-center">
+                  <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">Your message has been sent. Thank you!</div>
+
+                  <button type="submit">Send Message</button>
+                </div>
+
+              </div>
+            </form>
+          </div><!-- End Contact Form -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Contact Section -->
+
+  </main>
+
+  <footer id="footer" class="footer dark-background">
+    <div class="container">
+      <h3 class="sitename">
+        <img src="assets/img/logo-round-corners-2.png" style="width: 100px; height:auto;" alt="OnRent Logo" class="logo">
+      </h3>
+      <p>To transform perceptions of ownership by making renting convenient and affordable...</p>
+      <div class="social-links d-flex justify-content-center">
+        <a href="https://x.com/OnRentsrilanka"><i class="bi bi-twitter-x"></i></a>
+<!--        <a href=""><i class="bi bi-facebook"></i></a>-->
+        <a href="https://www.instagram.com/onrentsrilanka/"><i class="bi bi-instagram"></i></a>
+<!--        <a href=""><i class="bi bi-skype"></i></a>-->
+        <a href="https://www.linkedin.com/company/onrentsrilanak/posts/?feedView=all"><i class="bi bi-linkedin"></i></a>
+      </div>
+      <div class="copyright">
+        <span>Copyright</span> <strong class="px-1 sitename">OnRent</strong> <span>All Rights Reserved</span>
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you've purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+<!--        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>-->
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
